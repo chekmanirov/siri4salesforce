@@ -17,6 +17,7 @@
 		1378F4A41F8C33E50038EB1C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1378F4A21F8C33E50038EB1C /* MainInterface.storyboard */; };
 		1378F4A81F8C33E50038EB1C /* SiriUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1378F49C1F8C33E50038EB1C /* SiriUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1378F4AB1F8C33E50038EB1C /* Siri.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1378F4931F8C33E50038EB1C /* Siri.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		13AC6D821F93FDFD00C67C01 /* AppIntentVocabulary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13AC6D811F93FDFD00C67C01 /* AppIntentVocabulary.plist */; };
 		1DF2EF3AB62372D5BCD127FC /* Pods_Siri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97A8080BAE84ED330D451547 /* Pods_Siri.framework */; };
 		26B374DB980250E966A7D17A /* Pods_SiriUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E95384218B5FA8B821B42A7 /* Pods_SiriUI.framework */; };
 		78A235BD93AB7D080D67CD51 /* Pods_Salesforce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A29C75280BDF73123F14B4 /* Pods_Salesforce.framework */; };
@@ -68,6 +69,7 @@
 		1378F4A31F8C33E50038EB1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		1378F4A51F8C33E50038EB1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13AC6D801F93442D00C67C01 /* SiriUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SiriUI.entitlements; sourceTree = "<group>"; };
+		13AC6D811F93FDFD00C67C01 /* AppIntentVocabulary.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AppIntentVocabulary.plist; sourceTree = "<group>"; };
 		143763F9AE9EAB9AA80A0FDB /* Pods-SiriUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiriUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-SiriUI/Pods-SiriUI.release.xcconfig"; sourceTree = "<group>"; };
 		2AF100354EBFF653B2B3E601 /* Pods-Siri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Siri.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Siri/Pods-Siri.debug.xcconfig"; sourceTree = "<group>"; };
 		4F393A281C3C8BCD00B3EA13 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				130C46B21F9330D000EDCC2B /* Siri.entitlements */,
 				1378F4951F8C33E50038EB1C /* IntentHandler.swift */,
 				1378F4971F8C33E50038EB1C /* Info.plist */,
+				13AC6D811F93FDFD00C67C01 /* AppIntentVocabulary.plist */,
 			);
 			path = Siri;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13AC6D821F93FDFD00C67C01 /* AppIntentVocabulary.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

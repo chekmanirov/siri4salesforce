@@ -6,6 +6,7 @@
 //  Copyright © 2017 Salesforce. All rights reserved.
 //
 
+import Foundation
 import Intents
 import SalesforceSDKCore
 import ApiAI
@@ -57,29 +58,56 @@ extension IntentHandler : INAddTasksIntentHandling, SFRestDelegate {
             
 
             ApiAIRequest?.setCompletionBlockSuccess({ (request, response) in
-                let response = response as AnyObject?
-                print("resp2: ", response)
+                let response = response as AnyObject
+                print("API.AI response: ", response["result"])
+                let ApiAIResult = response["result"] as AnyObject
+                let responseParameters = ApiAIResult["parameters"] as AnyObject
+                print("API.AI response: ", responseParameters)
                 
                 
-                let targetRecord = "Lauren Boyle"
-                let subject = "discuss a new project"
-                let taskDate = "2017-11-11"
-                let sfQuery = "{\"targetRecord\":\"" + targetRecord + "\","
-                    + "\"subject\":\"" + subject + "\","
-                    + "\"dueDate\":\"" + taskDate + "\","
-                    + "\"status\":\"incomplete\"}"
+                let targetRecord = responseParameters["contactName"] as! String;
+                let subject = responseParameters["taskSubject"] as! String;
                 
+                let sfQuery = [
+                    "targetRecord": targetRecord,
+                    "subject": subject,
+                    "dueDate": "2017-11-11",
+                    "status": "incomplete"
+                ]
                 
-                let sfRequest = SFRestRequest(method: .POST,
-                                              path:"/services/apexrest/Siri/",
-                                              queryParams: nil)
-                sfRequest.endpoint = ""
-                sfRequest.setCustomRequestBodyData(sfQuery.data(using: .utf8)!, contentType: "application/json")
-                
-                print("before salesforce request")
-                SFRestAPI.sharedInstance().send(sfRequest, delegate: sfDelegate());
-                print("after salesforce request")
-                
+                if let sfJSON = try? JSONSerialization.data(withJSONObject: sfQuery, options: []) {
+                    let jsonQuery = String(data: sfJSON, encoding: .ascii)!
+                    
+                    print(jsonQuery)
+                    
+                    
+                    let sfRequest = SFRestRequest(method: .POST,
+                                                  path:"/services/apexrest/Siri/",
+                                                  queryParams: nil)
+                    sfRequest.endpoint = ""
+                    sfRequest.setCustomRequestBodyData(jsonQuery.data(using: .utf8)!, contentType: "application/json")
+                    SFRestAPI.sharedInstance().send(sfRequest, delegate: sfDelegate());
+                    
+                    let newTask = INTask(
+                        title: title,
+                        status: .notCompleted,
+                        taskType: .completable,
+                        spatialEventTrigger: nil,
+                        temporalEventTrigger: nil,
+                        createdDateComponents: nil,
+                        modifiedDateComponents: nil,
+                        identifier: nil)
+                    
+                    addedTasks.append(newTask)
+                    
+                    let response = INAddTasksIntentResponse(code: .success, userActivity: nil)
+                    response.addedTasks = addedTasks
+                    print("finishing")
+                    completion(response)
+                    print("end")
+                    return
+                    
+                }
                 
             },
                                      failure: {(request, error)
@@ -87,31 +115,18 @@ extension IntentHandler : INAddTasksIntentHandling, SFRestDelegate {
             })
             
             ApiAI.shared().enqueue(ApiAIRequest)
+            return
             
-            let newTask = INTask(
-                title: title,
-                status: .notCompleted,
-                taskType: .completable,
-                spatialEventTrigger: nil,
-                temporalEventTrigger: nil,
-                createdDateComponents: nil,
-                modifiedDateComponents: nil,
-                identifier: nil)
-            
-         addedTasks.append(newTask)
          }
         
         
-        let response = INAddTasksIntentResponse(code: .success, userActivity: nil)
-        response.addedTasks = addedTasks
-        completion(response)
     }
     
     class sfDelegate: NSObject, SFRestDelegate {
         
         func request(_ request: SFRestRequest, didLoadResponse jsonResponse: Any)
         {
-            print(jsonResponse)
+            return
         }
         
         func request(_ request: SFRestRequest, didFailLoadWithError error: Error)
