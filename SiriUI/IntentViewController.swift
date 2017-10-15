@@ -7,6 +7,7 @@
 //
 
 import IntentsUI
+import WebKit
 
 // As an example, this extension's Info.plist has been configured to handle interactions for INSendMessageIntent.
 // You will want to replace this or add other intents as appropriate.
@@ -15,10 +16,22 @@ import IntentsUI
 // You can test this example integration by saying things to Siri like:
 // "Send a message using <myApp>"
 
-class IntentViewController: UIViewController, INUIHostedViewControlling {
+class IntentViewController: UIViewController, INUIHostedViewControlling, WKUIDelegate {
+    
+    var webView: WKWebView!
+    
+    override func loadView() {
+        let webConfiguration = WKWebViewConfiguration()
+        webView = WKWebView(frame: .zero, configuration: webConfiguration)
+        webView.uiDelegate = self
+        view = webView
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let url = URL(string: "https://mykevdev-developer-edition.na73.force.com/siriuipage")!
+        webView.load(URLRequest(url: url))
+        webView.allowsBackForwardNavigationGestures = true
         // Do any additional setup after loading the view.
     }
     

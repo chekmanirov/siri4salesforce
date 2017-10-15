@@ -19,9 +19,7 @@ class IntentHandler: INExtension {
     override func handler(for intent: INIntent) -> Any {
         return self
     }
-    
-    
-    
+
 }
 
 extension IntentHandler : INAddTasksIntentHandling, SFRestDelegate {
