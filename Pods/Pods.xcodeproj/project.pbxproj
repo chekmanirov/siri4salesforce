@@ -19,7 +19,7 @@
 		02EFA9A38EFB58DF93D43EAC41D5C3D0 /* SFSDKAnalyticsManager+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 31E9E064FE6FEA706BB19BCB07C20E6A /* SFSDKAnalyticsManager+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0365ADA0AC726C71AF95C7D8A414DF44 /* SFSDKCryptoUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4570742250BD80D73F195EE4A6B39D /* SFSDKCryptoUtils.m */; };
 		039E3BDCBA78411C3CB6735AE100529D /* UIDevice+SFHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = F03C415A32149014BF71B9BF38B8B3FA /* UIDevice+SFHardware.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		046E8FA2C85211C3DF32F0F27F7B5A26 /* Pods-Siri-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45349068AD41A6A43CBFBE0E163C7C76 /* Pods-Siri-dummy.m */; };
+		0448BE567DAACEA2CCB4063AAEC4EFB1 /* Pods-SiriUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE4014EB18A42A992E1D3295079327D /* Pods-SiriUI-dummy.m */; };
 		04AB8A9D7F5DB67A5273D1AC958ADB03 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = AEB926E9A15D23B46FD3D5872F9F47E8 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0523D7FA04DE5BC3EF5C4DBD13CB6066 /* NSData+SFSDKUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C8008E47D3F37F6D6BA20F845E1E304D /* NSData+SFSDKUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0530D3EBD2738CA94082050DE1F7892E /* SFOAuthSessionRefresher.h in Headers */ = {isa = PBXBuildFile; fileRef = 16628A62DC652B255C1FA640ED98B0FB /* SFOAuthSessionRefresher.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,7 +27,6 @@
 		0581A114B244AFE22A1547592BF7D80E /* CSFParameterStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = B41AD0AE3B77DBFFEDE256A5F196B8A9 /* CSFParameterStorage.m */; };
 		058BCDB85849F0435A7F67CF626894B8 /* SFLogger_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BD905FE704342780E8310EC74F315A5 /* SFLogger_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0596680FB743918F21EF9DFE8CF0B0AE /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = E263B5890336D5916EA1275D56CEE0B5 /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		05BFFBB47A01EA854C8148C2331DBA74 /* Pods-Siri-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9626D7D414B4590F40409835FE4A61 /* Pods-Siri-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05C236D5BB723D7E633B1AF3DCC3085A /* SFKeyStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFC2EAFB2B6BE825A5E5F5B72EF4A62 /* SFKeyStoreManager.m */; };
 		0770A94E765EC755B3ED66A7CC8B44C7 /* SFSDKInstrumentationEventBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 58DE5930D6260814E9C7808A92ADD850 /* SFSDKInstrumentationEventBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07C08E0BCA5D6E73F6F31C4E5A413D80 /* SFLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 65786254A5686B9D37C1E85D33D2FBEF /* SFLogger.m */; };
@@ -194,7 +193,6 @@
 		46BCF6AD09D0E803C4668842D2EF119D /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 6729F541874706DF76D5B7F7E1C99CEE /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4700424F76D42473BEDD1686F2A39758 /* SFSmartStoreUpgrade+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 85108DB3596975AF0D4E7D293763875B /* SFSmartStoreUpgrade+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		477EFEA86A8D10A682E985EF0B0C222F /* SalesforceSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1051D7FED6EB36FDC0AFFB41F8DAE1 /* SalesforceSDKCore.framework */; };
-		4785E202CC492BB00AB6567AD1629198 /* Pods-SiriUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 096B9FFB5FDBB913F9AC834D24F46401 /* Pods-SiriUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47B43D92885D79C26B3179865DE0650B /* SFSDKInstrumentationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 66389D961B82883EC5FDBF753E727410 /* SFSDKInstrumentationEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47C93C2D85F17EE1EE5382D3EF6AC050 /* SFPasscodeManager+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D47C202FFFCA8E05AB47C2CC4C2BFBA /* SFPasscodeManager+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47FD466CC20F2201426CCA068616160A /* AIAlgorithmDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 761021B2A38D29C4F9B6640FD17ED282 /* AIAlgorithmDetector.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -396,6 +394,7 @@
 		99E51FB0CF6CF0DECA81AC2BD956BD1E /* AIResponseStatus_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC4359E377A1B3C121ACC53E8DD9BA6 /* AIResponseStatus_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9A44B0D06866762A7CA91F5E85674AD4 /* SFDefaultUserAccountPersister.h in Headers */ = {isa = PBXBuildFile; fileRef = 12E83CC6EE573E55C30BD106C8DB5B7E /* SFDefaultUserAccountPersister.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9A6E7148387DB58814FC38CC1059AC79 /* SFPushNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 198FD7B44AD356EF55CAD1430DCBCF4C /* SFPushNotificationManager.m */; };
+		9B2455DD9B734662E06CD4D984949878 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60213A9A3F1AB7011E518040C27ACA00 /* Foundation.framework */; };
 		9B89759F4499E11B89811880321810BE /* SFRestRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D37EB7FE839A4646DF6A7BCB18D895 /* SFRestRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B947E396EFD1D1C822235752ED92F48 /* SalesforceAnalytics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF89BB689A22917D50380F1BA3A9EA12 /* SalesforceAnalytics-dummy.m */; };
 		9BB185E0E8626EF255470B0CE3D37298 /* AISoundRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C360D9626C43C15EB28AE303FAEB8C /* AISoundRecorder.m */; };
@@ -427,6 +426,7 @@
 		A500A6329B0E175EF0BF5477FC3CC8DB /* SFSoupSpec+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = E252A7B4DACF15B15DF9332D4979213C /* SFSoupSpec+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A562A3F722AAB9533BD834E03DD72597 /* SFInstrumentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ACA62F21D50884DE26247D78C3BF80 /* SFInstrumentation.m */; };
 		A58A5ABEB2A94B21A83BF470E7098A9E /* SalesforceSDKConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5B5CF16235420850BC0088F7ED69ED /* SalesforceSDKConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5BDCC3053C4ACA6845F7FBB08AB1A90 /* Pods-SiriUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 096B9FFB5FDBB913F9AC834D24F46401 /* Pods-SiriUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5E9C9354BA77A2351EB67F27D3B2766 /* SFObjectType.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E643D43EBF2DB7262F48D048DFA4676 /* SFObjectType.m */; };
 		A6FD5C869E5162FF724729A29E823744 /* CSFAction+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 97AA11D8D890C7B5E611EE5957EF987B /* CSFAction+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A7836A60B9AA4F7670E3DB6F1D9377E4 /* AIUserEntity_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CD48833CD488D805A79B6438A067C8E /* AIUserEntity_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -446,7 +446,6 @@
 		AE3B99BD171EE01B99A60DA76EB4D09C /* AINullabilityDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E33C5F15BB207FCC1E3793604189D49 /* AINullabilityDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE58C9AD65D389397BCEADD3AF401D80 /* CSFInternalDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = B19B4BE78BC537E2423FFF652EC21931 /* CSFInternalDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AEDF9A702086203C69A4E45152D00BB0 /* SFChildrenInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 248C640856BF7B7F02E5ECB92D303CB2 /* SFChildrenInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0347A5A0F4A2A24B976D7D5484C2DAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60213A9A3F1AB7011E518040C27ACA00 /* Foundation.framework */; };
 		B0A3DC92298DF2F5035D0ECF698B3291 /* CSFJPEGImageValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2117CD6B2F3E8CF1678760DAD4C314CD /* CSFJPEGImageValueTransformer.m */; };
 		B0FB9DB4242B68792F87A1B840A7F603 /* AIEventRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 910ECDC8B2E0A99ADAF439FF33B379F4 /* AIEventRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B115FB15053CB02946070256025E34B4 /* SFSDKDeviceAppAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E307750A00D94EFF3743922D60AC37 /* SFSDKDeviceAppAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -458,7 +457,6 @@
 		B31F2E741034E4156381A658723D9774 /* SFSDKLoginHost.h in Headers */ = {isa = PBXBuildFile; fileRef = 472EFFD2DBF8741BA57ED309071B8086 /* SFSDKLoginHost.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3D8186FAFDAC4596CC29FCF8658173A /* AIOriginalRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 71781D2E727389D4798B39A2AB95F08E /* AIOriginalRequest.m */; };
 		B3F7D9C6E44BE074A1FA14A3D5F3BAA8 /* AIUserEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 727C455EBFDC0C5E6656EEF6B83CD8E9 /* AIUserEntity.m */; };
-		B50F889A7823210303D623ADF5D431E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60213A9A3F1AB7011E518040C27ACA00 /* Foundation.framework */; };
 		B588C2FB9F437B762E47D857DB614DA0 /* SFInactivityTimerCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8EB48161CAA7320B23C1875DD4FC8C /* SFInactivityTimerCenter.m */; };
 		B5B09BC3F8B3F0BD5A63D7D27F2F1B79 /* AIResponseResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 7316640A197D8D747AC474D5F45C9E80 /* AIResponseResult.m */; };
 		B5D18F7D20BE3BFA3221308F8DB2A479 /* SalesforceSDKCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 2707A23C8F3B4B58053822276FF691F7 /* SalesforceSDKCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -491,7 +489,6 @@
 		BFFD83AC2259740A5A744A0135D23837 /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 12E530AFC8FD1143AC1B4E434FCAB8F1 /* DDLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C028C72D48BA46F5A1E5CF5C12152808 /* SFStoreCursor.h in Headers */ = {isa = PBXBuildFile; fileRef = FD284820136D2FC696D323476FA37003 /* SFStoreCursor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C16D2112E83EC0888DDBCC83040700D6 /* SFPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = EC39746BA33B446E6CA89C7944605E40 /* SFPreferences.m */; };
-		C21843655517E3D235A1F8D95872D2BB /* Pods-SiriUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE4014EB18A42A992E1D3295079327D /* Pods-SiriUI-dummy.m */; };
 		C226E4CF61622767C46F8B35C0357778 /* SFRestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA84965044B0A4ECA725A7545566769 /* SFRestRequest.m */; };
 		C22A4D1FBD9629AE12FCDFB2B74CA68A /* SFUserAccount+SalesforceNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = B95C30110894FCE4FA950D8A6E3FD8ED /* SFUserAccount+SalesforceNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C24BFC67ECEA8071AE2006262F99E641 /* SFObjectType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8797DE396A4F85475089C2AED68404BF /* SFObjectType.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -518,8 +515,10 @@
 		C92A7E6A4D72A7804B760E70828C956C /* SFSHA256PasscodeProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E43C5B64559F0A754DE8A20221C2E2 /* SFSHA256PasscodeProvider.m */; };
 		C955B7FD45AE8B5A764D47E2FF50165E /* SFAuthenticationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BBA76DA2CB97AEE111F89E12F1163D /* SFAuthenticationManager.m */; };
 		C974AB7949133D5F1986FE487B7D62CF /* AIRequest+AIMappedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AB609F7D998F03C26CF71644568A5D0D /* AIRequest+AIMappedResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9F53250987F05A2D5A39DFF4BE91213 /* Pods-Siri-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45349068AD41A6A43CBFBE0E163C7C76 /* Pods-Siri-dummy.m */; };
 		CB43CBC4EBC0F653A830C1F929A99419 /* SFSmartSyncPersistableObject+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC3953E57A49FEB108A384CB6E5510B /* SFSmartSyncPersistableObject+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CB516F45C8D41F5E862A5DBDAB4C413D /* UIColor+SFColors.m in Sources */ = {isa = PBXBuildFile; fileRef = BB04AA68C5AF2AE81DF50880C114CAED /* UIColor+SFColors.m */; };
+		CD1D6F239C109C6AA693F41F148E3A8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60213A9A3F1AB7011E518040C27ACA00 /* Foundation.framework */; };
 		CDFB8DBD847158BF5663A1AE4AB20B24 /* SFSDKAppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEF43EBA6C3878EAB93C7B20FDE5A5A /* SFSDKAppConfig.m */; };
 		CE1CBB71C9CA8E964D63D66F33FD8DE2 /* SFSDKReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC3187E2C7BEFCF4AA2806F346A26DD /* SFSDKReachability.m */; };
 		CEB4325E19EA14A3FEEA2273A5EA9259 /* SFSDKEventStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F871E046DA6E1FF6C7D3986E236C69A /* SFSDKEventStoreManager.m */; };
@@ -575,6 +574,7 @@
 		E404544F38216A91FD37015514E25482 /* SQLCipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BFA5DAEFF2D1487C56A7A88F9AF499 /* SQLCipher.framework */; };
 		E44F97C8FB885841C3582565F8319933 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 001396BDCB4FBB85BE2B054B3B68A5F1 /* FMDB-dummy.m */; };
 		E537169144DA190E8F40F85A536EBAA9 /* SFApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 92B20C1EF12853C92CD078045D64A7F1 /* SFApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E585FCAA72A40E89E9151D796954DC05 /* Pods-Siri-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9626D7D414B4590F40409835FE4A61 /* Pods-Siri-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5A2057122C2EC919502978687412078 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = ADD5D6C542575E48C6172A11ECE70286 /* en.lproj */; };
 		E65C992E2626940CB36864F8D20ECB19 /* SFSDKAppFeatureMarkers.h in Headers */ = {isa = PBXBuildFile; fileRef = 4380E36FCF092768D14DF4224366F693 /* SFSDKAppFeatureMarkers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E668F71A40750D9C2D6FA3A569849771 /* AIVoiceRequestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5AAA138F3B1DABA682B281B97F26F2 /* AIVoiceRequestButton.m */; };
@@ -645,6 +645,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		077E6F32D1A8FA7B6BD8BB347A3BB439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 382B145A1C603177AA5FD685104A493F;
+			remoteInfo = SalesforceSDKCore;
+		};
 		0E713ED03B9D4FF876E95831FB56400C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -666,6 +673,20 @@
 			remoteGlobalIDString = C321297C3045A2D34570469CAEF11B8A;
 			remoteInfo = ApiAI;
 		};
+		1474C03982BEEE605999F70483E25218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6D9F00B0D5DB64256098571755CDB62;
+			remoteInfo = SQLCipher;
+		};
+		165C6E5748E7A231BABF5ED3F4CF2F8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C321297C3045A2D34570469CAEF11B8A;
+			remoteInfo = ApiAI;
+		};
 		1EF314854ADB4229D6CBD47C8F1C6AF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -680,12 +701,26 @@
 			remoteGlobalIDString = 5CEFC7F1ADAEA23C8A9613C6D06FE4EA;
 			remoteInfo = FMDB;
 		};
+		323932A4EFF0DF04155AC04C61A4E029 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93FB2C8B3DF0D9CEA9AD552FAE6EA255;
+			remoteInfo = SalesforceAnalytics;
+		};
 		3300F4C2FB4F747DC028B8075521D60E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B6D9F00B0D5DB64256098571755CDB62;
 			remoteInfo = SQLCipher;
+		};
+		33192DA8459602A56B48170A00B640B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93FB2C8B3DF0D9CEA9AD552FAE6EA255;
+			remoteInfo = SalesforceAnalytics;
 		};
 		35A964E91998843CA7D977B36DB18647 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -701,12 +736,33 @@
 			remoteGlobalIDString = BF8045D5AA3B487A833BF158CECA299C;
 			remoteInfo = SmartStore;
 		};
+		4A2CB04A3F9153E2D39C5E3B6116AA3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83F058FF9984C94D0CDABAC67DC3CBE6;
+			remoteInfo = SmartSync;
+		};
 		551E4AF552E9DA62B9F927F40AC9EC07 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 416B388906DEFAC81F0676F277AC9058;
 			remoteInfo = CocoaLumberjack;
+		};
+		66B4C53DFA4BB37DAAA8577AFA79FE0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CEFC7F1ADAEA23C8A9613C6D06FE4EA;
+			remoteInfo = FMDB;
+		};
+		69D9D3EA1235DEB039CF92994F41C220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CEFC7F1ADAEA23C8A9613C6D06FE4EA;
+			remoteInfo = FMDB;
 		};
 		70533404244BA6E68BC345ABAEDD98FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -722,21 +778,21 @@
 			remoteGlobalIDString = 93FB2C8B3DF0D9CEA9AD552FAE6EA255;
 			remoteInfo = SalesforceAnalytics;
 		};
-		83ED66E0730C091D06483138B28A64D9 /* PBXContainerItemProxy */ = {
+		9CD6728F36D0ECF15165B6F90664D14F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C321297C3045A2D34570469CAEF11B8A;
-			remoteInfo = ApiAI;
-		};
-		9C3BE38078BDD89F53B5196CD37BBDCF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C321297C3045A2D34570469CAEF11B8A;
-			remoteInfo = ApiAI;
+			remoteGlobalIDString = 83F058FF9984C94D0CDABAC67DC3CBE6;
+			remoteInfo = SmartSync;
 		};
 		9D457CEEC6B786C2C92622709CE937E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6D9F00B0D5DB64256098571755CDB62;
+			remoteInfo = SQLCipher;
+		};
+		A0C3E0DE217E16DC2BB8E22F76A620F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -750,6 +806,13 @@
 			remoteGlobalIDString = 93FB2C8B3DF0D9CEA9AD552FAE6EA255;
 			remoteInfo = SalesforceAnalytics;
 		};
+		BF1E970A24BAEF8A016FDB0A6BD418BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF8045D5AA3B487A833BF158CECA299C;
+			remoteInfo = SmartStore;
+		};
 		CDFD22CCCDEBC2AE7EF7F7093E6B4669 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -757,12 +820,40 @@
 			remoteGlobalIDString = 5CEFC7F1ADAEA23C8A9613C6D06FE4EA;
 			remoteInfo = FMDB;
 		};
+		D9DF1359F904FE080645AB067C056617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 416B388906DEFAC81F0676F277AC9058;
+			remoteInfo = CocoaLumberjack;
+		};
+		E1B65B9E69E44ECAAA5A04A595A2D9B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C321297C3045A2D34570469CAEF11B8A;
+			remoteInfo = ApiAI;
+		};
 		E7241814EB3C36EF5093C9E62BA151D9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 382B145A1C603177AA5FD685104A493F;
 			remoteInfo = SalesforceSDKCore;
+		};
+		EA9CD46FE30425D135FDF5B9F26CBD5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 416B388906DEFAC81F0676F277AC9058;
+			remoteInfo = CocoaLumberjack;
+		};
+		EDBF5CAC32707DA490774002E8A5C38C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF8045D5AA3B487A833BF158CECA299C;
+			remoteInfo = SmartStore;
 		};
 		EE1B20327A642C159BD198DD0F5B0DA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -777,6 +868,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 83F058FF9984C94D0CDABAC67DC3CBE6;
 			remoteInfo = SmartSync;
+		};
+		FE524C07DC85DF368518E9A854DEC1E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 382B145A1C603177AA5FD685104A493F;
+			remoteInfo = SalesforceSDKCore;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -1491,14 +1589,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CE4C5F58D7D858C236AB1593FC8CCA2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B0347A5A0F4A2A24B976D7D5484C2DAD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3ED7F5B471324A13AC619F43A857BBD1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1537,6 +1627,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A19204B304824F6BB32842F687B92C3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2455DD9B734662E06CD4D984949878 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A8636AD7F69D91E01C889CD6974A661F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1545,14 +1643,6 @@
 				08FB443F19643A3CFDF4ED31618550B1 /* Foundation.framework in Frameworks */,
 				38D792BCE23E9C459A66A0501A48E22D /* SalesforceSDKCore.framework in Frameworks */,
 				E404544F38216A91FD37015514E25482 /* SQLCipher.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B1955D112ED0A268C015B6077F178E76 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B50F889A7823210303D623ADF5D431E0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1578,6 +1668,14 @@
 			files = (
 				FECA14E697A436DA51C8280F9FEAB07C /* Foundation.framework in Frameworks */,
 				1B85825037042B6420F91634CD7594E2 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F11BB98F2B6E322F6ADC3C74A88518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1D6F239C109C6AA693F41F148E3A8A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3224,14 +3322,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4DC8357C2D2F68351A5801CBFF357CF3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4785E202CC492BB00AB6567AD1629198 /* Pods-SiriUI-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6A2BA6B61950978CCB2950EA8D860AD7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -3268,11 +3358,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		848FD1A12E081EBAF8437932ECE86345 /* Headers */ = {
+		91AAAEC16A1AC91F1C241418453D45D2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05BFFBB47A01EA854C8148C2331DBA74 /* Pods-Siri-umbrella.h in Headers */,
+				A5BDCC3053C4ACA6845F7FBB08AB1A90 /* Pods-SiriUI-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3477,6 +3567,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BFD0D4566F0CD978B35A55886451BD79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E585FCAA72A40E89E9151D796954DC05 /* Pods-Siri-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CF2546C436E5C979C4B3F1B11AF5A011 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -3505,6 +3603,56 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2474289776B8E8C8AC6775489A584130 /* Pods-Siri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1F9BFF571EAFC09C520B3F588A8D92B /* Build configuration list for PBXNativeTarget "Pods-Siri" */;
+			buildPhases = (
+				78B9FBCDA76713980B38CD259DFD0DB6 /* Sources */,
+				A19204B304824F6BB32842F687B92C3F /* Frameworks */,
+				BFD0D4566F0CD978B35A55886451BD79 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				126B28BE5E266A30190CFA8785B9271F /* PBXTargetDependency */,
+				21557682E3BB61B57950CB9D02ECC486 /* PBXTargetDependency */,
+				E4395EC4A32153E14E52651ED2009716 /* PBXTargetDependency */,
+				361CC78E9D1231CA70743D2912A0BC3D /* PBXTargetDependency */,
+				E3A7FCE1B832125754D82B5D64566723 /* PBXTargetDependency */,
+				AB576EA636B5C63978D3F626537EF66C /* PBXTargetDependency */,
+				82B2A5CB4C3132853C3F06F5E66E52CD /* PBXTargetDependency */,
+				EA6EA42A08E23247EFEEE7127C89AED0 /* PBXTargetDependency */,
+			);
+			name = "Pods-Siri";
+			productName = "Pods-Siri";
+			productReference = 946ACE43C1380445770864CD921C5DFA /* Pods_Siri.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2F22E50097581DB83C6D6A819FDD5CC9 /* Pods-SiriUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8FA2894FB4E3D872B17B23D649FB08B /* Build configuration list for PBXNativeTarget "Pods-SiriUI" */;
+			buildPhases = (
+				7805E6BFDF91E870DAEB819C3D2F5E88 /* Sources */,
+				D9F11BB98F2B6E322F6ADC3C74A88518 /* Frameworks */,
+				91AAAEC16A1AC91F1C241418453D45D2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6D1EBA4FFFCA0FFA01A311E8EA6A8C1 /* PBXTargetDependency */,
+				738FBB3CC68F3C99956BF1CBF24BD801 /* PBXTargetDependency */,
+				AE5578008EEA178BEB6FA978E463D801 /* PBXTargetDependency */,
+				F217B013631D1208D83AFCB8A04C10E3 /* PBXTargetDependency */,
+				F39D3AA3245E57486755EDE08C00BDAF /* PBXTargetDependency */,
+				8A17F2043224D1F9D8E1FCCEAEC9A461 /* PBXTargetDependency */,
+				FF55E691DC643100B7ACA7844A38FE96 /* PBXTargetDependency */,
+				1B77EC334E98531A65032DB196F6093F /* PBXTargetDependency */,
+			);
+			name = "Pods-SiriUI";
+			productName = "Pods-SiriUI";
+			productReference = BDD2F15C1133C4419815868D7D27EA32 /* Pods_SiriUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		382B145A1C603177AA5FD685104A493F /* SalesforceSDKCore */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D5BEF908094F492D3530E5DA6AA4034 /* Build configuration list for PBXNativeTarget "SalesforceSDKCore" */;
@@ -3597,24 +3745,6 @@
 			productReference = 9503B0BF22E7B043D3B776F64D381AB5 /* SalesforceAnalytics.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A3CFDC6BB10B01D736951A3BE9C2B12C /* Pods-SiriUI */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AF96EC3301DB9FD930E5F740C1C3643B /* Build configuration list for PBXNativeTarget "Pods-SiriUI" */;
-			buildPhases = (
-				6CBB3840590A35B5349C551FAA296D01 /* Sources */,
-				3CE4C5F58D7D858C236AB1593FC8CCA2 /* Frameworks */,
-				4DC8357C2D2F68351A5801CBFF357CF3 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DD3ABF68324A19452578C523490E9B58 /* PBXTargetDependency */,
-			);
-			name = "Pods-SiriUI";
-			productName = "Pods-SiriUI";
-			productReference = BDD2F15C1133C4419815868D7D27EA32 /* Pods_SiriUI.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		A95FA719BF04CB535C55BE0DE4BADA58 /* SalesforceSDKCore-SalesforceSDKResources */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87097F5134CA9F4B298735232C826855 /* Build configuration list for PBXNativeTarget "SalesforceSDKCore-SalesforceSDKResources" */;
@@ -3672,24 +3802,6 @@
 			name = SQLCipher;
 			productName = SQLCipher;
 			productReference = DF0B8BA51B0FFC546C7D37FAEA93F74B /* SQLCipher.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B73C0E0665F70B496C22F87872956BBA /* Pods-Siri */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 27AF1AEB3BE6C2388E887F54D7C18A73 /* Build configuration list for PBXNativeTarget "Pods-Siri" */;
-			buildPhases = (
-				441AFE38F2AA09DEC4C72FFD46101506 /* Sources */,
-				B1955D112ED0A268C015B6077F178E76 /* Frameworks */,
-				848FD1A12E081EBAF8437932ECE86345 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A7CD45DA7EA7870DA3830AAEAE2D9B6E /* PBXTargetDependency */,
-			);
-			name = "Pods-Siri";
-			productName = "Pods-Siri";
-			productReference = 946ACE43C1380445770864CD921C5DFA /* Pods_Siri.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BF8045D5AA3B487A833BF158CECA299C /* SmartStore */ = {
@@ -3755,8 +3867,8 @@
 				416B388906DEFAC81F0676F277AC9058 /* CocoaLumberjack */,
 				5CEFC7F1ADAEA23C8A9613C6D06FE4EA /* FMDB */,
 				B1BE1E027928DB46B8B22B0757C7C1C1 /* Pods-Salesforce */,
-				B73C0E0665F70B496C22F87872956BBA /* Pods-Siri */,
-				A3CFDC6BB10B01D736951A3BE9C2B12C /* Pods-SiriUI */,
+				2474289776B8E8C8AC6775489A584130 /* Pods-Siri */,
+				2F22E50097581DB83C6D6A819FDD5CC9 /* Pods-SiriUI */,
 				93FB2C8B3DF0D9CEA9AD552FAE6EA255 /* SalesforceAnalytics */,
 				382B145A1C603177AA5FD685104A493F /* SalesforceSDKCore */,
 				A95FA719BF04CB535C55BE0DE4BADA58 /* SalesforceSDKCore-SalesforceSDKResources */,
@@ -3871,14 +3983,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		441AFE38F2AA09DEC4C72FFD46101506 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				046E8FA2C85211C3DF32F0F27F7B5A26 /* Pods-Siri-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4D7ECC72A1A970FAFC9EC06C9A6924D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3932,11 +4036,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6CBB3840590A35B5349C551FAA296D01 /* Sources */ = {
+		7805E6BFDF91E870DAEB819C3D2F5E88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C21843655517E3D235A1F8D95872D2BB /* Pods-SiriUI-dummy.m in Sources */,
+				0448BE567DAACEA2CCB4063AAEC4EFB1 /* Pods-SiriUI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B9FBCDA76713980B38CD259DFD0DB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F53250987F05A2D5A39DFF4BE91213 /* Pods-Siri-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4153,11 +4265,29 @@
 			target = B6D9F00B0D5DB64256098571755CDB62 /* SQLCipher */;
 			targetProxy = 9D457CEEC6B786C2C92622709CE937E7 /* PBXContainerItemProxy */;
 		};
+		126B28BE5E266A30190CFA8785B9271F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ApiAI;
+			target = C321297C3045A2D34570469CAEF11B8A /* ApiAI */;
+			targetProxy = 165C6E5748E7A231BABF5ED3F4CF2F8F /* PBXContainerItemProxy */;
+		};
+		1B77EC334E98531A65032DB196F6093F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmartSync;
+			target = 83F058FF9984C94D0CDABAC67DC3CBE6 /* SmartSync */;
+			targetProxy = 9CD6728F36D0ECF15165B6F90664D14F /* PBXContainerItemProxy */;
+		};
 		1CEACF5D0DEC63821442EAFE7324F247 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SalesforceAnalytics;
 			target = 93FB2C8B3DF0D9CEA9AD552FAE6EA255 /* SalesforceAnalytics */;
 			targetProxy = 794211925F82B51A05C06E35B9668CCF /* PBXContainerItemProxy */;
+		};
+		21557682E3BB61B57950CB9D02ECC486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = 416B388906DEFAC81F0676F277AC9058 /* CocoaLumberjack */;
+			targetProxy = EA9CD46FE30425D135FDF5B9F26CBD5D /* PBXContainerItemProxy */;
 		};
 		287542547FE35D41391E732AEEC60540 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -4170,6 +4300,12 @@
 			name = SQLCipher;
 			target = B6D9F00B0D5DB64256098571755CDB62 /* SQLCipher */;
 			targetProxy = 129B7D4B56483FF128AEBD8515F9B8D3 /* PBXContainerItemProxy */;
+		};
+		361CC78E9D1231CA70743D2912A0BC3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLCipher;
+			target = B6D9F00B0D5DB64256098571755CDB62 /* SQLCipher */;
+			targetProxy = 1474C03982BEEE605999F70483E25218 /* PBXContainerItemProxy */;
 		};
 		4906B22A142A597D96E5D9E57D92FED0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -4189,11 +4325,29 @@
 			target = BF8045D5AA3B487A833BF158CECA299C /* SmartStore */;
 			targetProxy = 40225E43D2830DCE64FE1387629391A3 /* PBXContainerItemProxy */;
 		};
+		738FBB3CC68F3C99956BF1CBF24BD801 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = 416B388906DEFAC81F0676F277AC9058 /* CocoaLumberjack */;
+			targetProxy = D9DF1359F904FE080645AB067C056617 /* PBXContainerItemProxy */;
+		};
+		82B2A5CB4C3132853C3F06F5E66E52CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmartStore;
+			target = BF8045D5AA3B487A833BF158CECA299C /* SmartStore */;
+			targetProxy = BF1E970A24BAEF8A016FDB0A6BD418BC /* PBXContainerItemProxy */;
+		};
 		87009139D8CB3EF683EB5D56EFF6E083 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FMDB;
 			target = 5CEFC7F1ADAEA23C8A9613C6D06FE4EA /* FMDB */;
 			targetProxy = CDFD22CCCDEBC2AE7EF7F7093E6B4669 /* PBXContainerItemProxy */;
+		};
+		8A17F2043224D1F9D8E1FCCEAEC9A461 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SalesforceSDKCore;
+			target = 382B145A1C603177AA5FD685104A493F /* SalesforceSDKCore */;
+			targetProxy = FE524C07DC85DF368518E9A854DEC1E1 /* PBXContainerItemProxy */;
 		};
 		91BBCE5E9C22E51E1FEC4A5BA6B84455 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -4213,17 +4367,23 @@
 			target = A95FA719BF04CB535C55BE0DE4BADA58 /* SalesforceSDKCore-SalesforceSDKResources */;
 			targetProxy = 70533404244BA6E68BC345ABAEDD98FA /* PBXContainerItemProxy */;
 		};
-		A7CD45DA7EA7870DA3830AAEAE2D9B6E /* PBXTargetDependency */ = {
+		AB576EA636B5C63978D3F626537EF66C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ApiAI;
-			target = C321297C3045A2D34570469CAEF11B8A /* ApiAI */;
-			targetProxy = 83ED66E0730C091D06483138B28A64D9 /* PBXContainerItemProxy */;
+			name = SalesforceSDKCore;
+			target = 382B145A1C603177AA5FD685104A493F /* SalesforceSDKCore */;
+			targetProxy = 077E6F32D1A8FA7B6BD8BB347A3BB439 /* PBXContainerItemProxy */;
 		};
 		AB6D626B851C5A9E54671347E9E890ED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SalesforceAnalytics;
 			target = 93FB2C8B3DF0D9CEA9AD552FAE6EA255 /* SalesforceAnalytics */;
 			targetProxy = A3C9279CBE1846A1D86B870A06BA7269 /* PBXContainerItemProxy */;
+		};
+		AE5578008EEA178BEB6FA978E463D801 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 5CEFC7F1ADAEA23C8A9613C6D06FE4EA /* FMDB */;
+			targetProxy = 66B4C53DFA4BB37DAAA8577AFA79FE0D /* PBXContainerItemProxy */;
 		};
 		B3F25B36F3AD8695B52AB983B5EA461F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -4237,17 +4397,47 @@
 			target = 83F058FF9984C94D0CDABAC67DC3CBE6 /* SmartSync */;
 			targetProxy = FB7DA928F7B42581B48A07546BA6A704 /* PBXContainerItemProxy */;
 		};
-		DD3ABF68324A19452578C523490E9B58 /* PBXTargetDependency */ = {
+		E3A7FCE1B832125754D82B5D64566723 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ApiAI;
-			target = C321297C3045A2D34570469CAEF11B8A /* ApiAI */;
-			targetProxy = 9C3BE38078BDD89F53B5196CD37BBDCF /* PBXContainerItemProxy */;
+			name = SalesforceAnalytics;
+			target = 93FB2C8B3DF0D9CEA9AD552FAE6EA255 /* SalesforceAnalytics */;
+			targetProxy = 323932A4EFF0DF04155AC04C61A4E029 /* PBXContainerItemProxy */;
+		};
+		E4395EC4A32153E14E52651ED2009716 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 5CEFC7F1ADAEA23C8A9613C6D06FE4EA /* FMDB */;
+			targetProxy = 69D9D3EA1235DEB039CF92994F41C220 /* PBXContainerItemProxy */;
 		};
 		E8999BCB06259E2B89E784AFB5836F64 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SalesforceSDKCore;
 			target = 382B145A1C603177AA5FD685104A493F /* SalesforceSDKCore */;
 			targetProxy = 35A964E91998843CA7D977B36DB18647 /* PBXContainerItemProxy */;
+		};
+		EA6EA42A08E23247EFEEE7127C89AED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmartSync;
+			target = 83F058FF9984C94D0CDABAC67DC3CBE6 /* SmartSync */;
+			targetProxy = 4A2CB04A3F9153E2D39C5E3B6116AA3D /* PBXContainerItemProxy */;
+		};
+		F217B013631D1208D83AFCB8A04C10E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLCipher;
+			target = B6D9F00B0D5DB64256098571755CDB62 /* SQLCipher */;
+			targetProxy = A0C3E0DE217E16DC2BB8E22F76A620F0 /* PBXContainerItemProxy */;
+		};
+		F39D3AA3245E57486755EDE08C00BDAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SalesforceAnalytics;
+			target = 93FB2C8B3DF0D9CEA9AD552FAE6EA255 /* SalesforceAnalytics */;
+			targetProxy = 33192DA8459602A56B48170A00B640B9 /* PBXContainerItemProxy */;
+		};
+		F6D1EBA4FFFCA0FFA01A311E8EA6A8C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ApiAI;
+			target = C321297C3045A2D34570469CAEF11B8A /* ApiAI */;
+			targetProxy = E1B65B9E69E44ECAAA5A04A595A2D9B8 /* PBXContainerItemProxy */;
 		};
 		F8E4B44902FE5BA07FCE83DABA66A054 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -4261,71 +4451,15 @@
 			target = C321297C3045A2D34570469CAEF11B8A /* ApiAI */;
 			targetProxy = 1407EA4763D0CB29F28D923346D54E53 /* PBXContainerItemProxy */;
 		};
+		FF55E691DC643100B7ACA7844A38FE96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmartStore;
+			target = BF8045D5AA3B487A833BF158CECA299C /* SmartStore */;
+			targetProxy = EDBF5CAC32707DA490774002E8A5C38C /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0125B86B8CCFBF300BB086C3F6D96D38 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FEB55CAA405AF3F787479D069711DEA /* SQLCipher.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SQLCipher/SQLCipher-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SQLCipher/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SQLCipher/SQLCipher.modulemap";
-				PRODUCT_NAME = SQLCipher;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		03B999634FD5CB7F136B10211146DE6F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10609D7E8B12DC6340B5EB13C50E3326 /* CocoaLumberjack.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap";
-				PRODUCT_NAME = CocoaLumberjack;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4381,10 +4515,11 @@
 			};
 			name = Release;
 		};
-		150405E0867CFE091C7818FC8031E7B0 /* Debug */ = {
+		1706ABC91D9539B3C6D356353920C64D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E6FA925D5746CE636AE8EEA975417BD /* SalesforceSDKCore.xcconfig */;
+			baseConfigurationReference = 6ED2E03139289F6B27F1A4989F8A00C8 /* FMDB.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -4394,43 +4529,45 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SalesforceSDKCore/SalesforceSDKCore-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SalesforceSDKCore/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SalesforceSDKCore/SalesforceSDKCore.modulemap";
-				PRODUCT_NAME = SalesforceSDKCore;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		30FD5EF0A5C0B35641CAC20B838D045E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FEB55CAA405AF3F787479D069711DEA /* SQLCipher.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SQLCipher/SQLCipher-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SQLCipher/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SQLCipher/SQLCipher.modulemap";
-				PRODUCT_NAME = SQLCipher;
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1FD6C86506C356816D9E188E0481933A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15434F452EB9EC23AD8991A0F432E26C /* SmartStore.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SmartStore/SmartStore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmartStore/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SmartStore/SmartStore.modulemap";
+				PRODUCT_NAME = SmartStore;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -4441,10 +4578,11 @@
 			};
 			name = Debug;
 		};
-		4106D94ED450CAAC340EEBDA4BE0C66A /* Release */ = {
+		2094D532111E69E591828CBA13025426 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5651B6B3C69B53BB2EDDD24D931D5827 /* SmartSync.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -4466,77 +4604,16 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4578C86D44F0B1CE6622D99AE4689B77 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E6FA925D5746CE636AE8EEA975417BD /* SalesforceSDKCore.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SalesforceSDKCore/SalesforceSDKCore-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SalesforceSDKCore/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SalesforceSDKCore/SalesforceSDKCore.modulemap";
-				PRODUCT_NAME = SalesforceSDKCore;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4F853B0D58C8EF0D1C7D113F1441BA36 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95C50C75C3596C666D08A393326C2181 /* SalesforceAnalytics.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SalesforceAnalytics/SalesforceAnalytics-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SalesforceAnalytics/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SalesforceAnalytics/SalesforceAnalytics.modulemap";
-				PRODUCT_NAME = SalesforceAnalytics;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		527A91C4F2A0BFA102E1BB345E0C67BD /* Debug */ = {
+		499374279223E8671C0A79046401D2EB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15434F452EB9EC23AD8991A0F432E26C /* SmartStore.xcconfig */;
+			baseConfigurationReference = 6ED2E03139289F6B27F1A4989F8A00C8 /* FMDB.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -4546,13 +4623,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SmartStore/SmartStore-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SmartStore/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SmartStore/SmartStore.modulemap";
-				PRODUCT_NAME = SmartStore;
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_NAME = FMDB;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -4623,10 +4700,11 @@
 			};
 			name = Debug;
 		};
-		611BC6B19D47BEA09D22C3037D6AAEC4 /* Debug */ = {
+		5C98865957E42A822F1F5AE294930E51 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10609D7E8B12DC6340B5EB13C50E3326 /* CocoaLumberjack.xcconfig */;
+			baseConfigurationReference = 95C50C75C3596C666D08A393326C2181 /* SalesforceAnalytics.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -4636,13 +4714,44 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SalesforceAnalytics/SalesforceAnalytics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SalesforceAnalytics/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap";
-				PRODUCT_NAME = CocoaLumberjack;
+				MODULEMAP_FILE = "Target Support Files/SalesforceAnalytics/SalesforceAnalytics.modulemap";
+				PRODUCT_NAME = SalesforceAnalytics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		61074D2673D1A148142CD26A493E5B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E6FA925D5746CE636AE8EEA975417BD /* SalesforceSDKCore.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SalesforceSDKCore/SalesforceSDKCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SalesforceSDKCore/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SalesforceSDKCore/SalesforceSDKCore.modulemap";
+				PRODUCT_NAME = SalesforceSDKCore;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -4669,10 +4778,11 @@
 			};
 			name = Release;
 		};
-		7DF8E7E70E596E93FEC52275D4648127 /* Release */ = {
+		7506105C702FF90B3099C48EA5B8FD45 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6ED2E03139289F6B27F1A4989F8A00C8 /* FMDB.xcconfig */;
+			baseConfigurationReference = 10609D7E8B12DC6340B5EB13C50E3326 /* CocoaLumberjack.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -4682,13 +4792,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
-				PRODUCT_NAME = FMDB;
+				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap";
+				PRODUCT_NAME = CocoaLumberjack;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -4700,10 +4810,11 @@
 			};
 			name = Release;
 		};
-		80D4A65F6C44D8BC31B04116A98FCADD /* Debug */ = {
+		7781B86DA87463A0535BF50E555F84E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5651B6B3C69B53BB2EDDD24D931D5827 /* SmartSync.xcconfig */;
+			baseConfigurationReference = 6FEB55CAA405AF3F787479D069711DEA /* SQLCipher.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -4713,22 +4824,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SmartSync/SmartSync-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SmartSync/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLCipher/SQLCipher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLCipher/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SmartSync/SmartSync.modulemap";
-				PRODUCT_NAME = SmartSync;
+				MODULEMAP_FILE = "Target Support Files/SQLCipher/SQLCipher.modulemap";
+				PRODUCT_NAME = SQLCipher;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		85D3A21A7F6D77032754687223F910C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -4777,10 +4889,11 @@
 			};
 			name = Debug;
 		};
-		A5D722FBB511B2F139250580E5B708AB /* Debug */ = {
+		89E4FC5A7F1A720B0A74840DC292BDA9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C97628F7C595F2D46DB717B2E621184F /* Pods-Salesforce.debug.xcconfig */;
+			baseConfigurationReference = 95C50C75C3596C666D08A393326C2181 /* SalesforceAnalytics.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -4790,17 +4903,49 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Salesforce/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SalesforceAnalytics/SalesforceAnalytics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SalesforceAnalytics/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SalesforceAnalytics/SalesforceAnalytics.modulemap";
+				PRODUCT_NAME = SalesforceAnalytics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8ED19BF7834FE73115BF1D0E3DDFCC7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75A7EA6F93A4BEFD1334312A356A7077 /* Pods-SiriUI.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SiriUI/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Salesforce/Pods-Salesforce.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SiriUI/Pods-SiriUI.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Salesforce;
+				PRODUCT_NAME = Pods_SiriUI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -4809,7 +4954,70 @@
 			};
 			name = Debug;
 		};
-		AFEAE1ECF1629481842A4C580F4F58D1 /* Release */ = {
+		9472C43BF7712038AEDE8069FB9C5F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5651B6B3C69B53BB2EDDD24D931D5827 /* SmartSync.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SmartSync/SmartSync-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmartSync/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SmartSync/SmartSync.modulemap";
+				PRODUCT_NAME = SmartSync;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97923369A011F5AEE959D4DCEEAD0655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FEB55CAA405AF3F787479D069711DEA /* SQLCipher.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLCipher/SQLCipher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLCipher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLCipher/SQLCipher.modulemap";
+				PRODUCT_NAME = SQLCipher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98F3E2636F84A39D39191052165A6414 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 54D486D71C9C1FC305AADE6529AD6DED /* Pods-SiriUI.release.xcconfig */;
 			buildSettings = {
@@ -4843,9 +5051,41 @@
 			};
 			name = Release;
 		};
-		B9AC61764C9293CD1ACC698B32B66554 /* Debug */ = {
+		A5D722FBB511B2F139250580E5B708AB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75A7EA6F93A4BEFD1334312A356A7077 /* Pods-SiriUI.debug.xcconfig */;
+			baseConfigurationReference = C97628F7C595F2D46DB717B2E621184F /* Pods-Salesforce.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Salesforce/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Salesforce/Pods-Salesforce.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Salesforce;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF4275141D40710977FF27FA65D77062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15434F452EB9EC23AD8991A0F432E26C /* SmartStore.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -4857,24 +5097,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SiriUI/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SmartStore/SmartStore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmartStore/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SiriUI/Pods-SiriUI.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SiriUI;
+				MODULEMAP_FILE = "Target Support Files/SmartStore/SmartStore.modulemap";
+				PRODUCT_NAME = SmartStore;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		C891773FEC68981FF32E7744EE3A643C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -4907,6 +5146,70 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		C92555FDFAA171AE0979C28FC0C82811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000703F696FE7E6D0C2FFCE83EDC8474 /* Pods-Siri.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Siri/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Siri/Pods-Siri.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Siri;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CDE63E41832196A489670094AEDC7B5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10609D7E8B12DC6340B5EB13C50E3326 /* CocoaLumberjack.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap";
+				PRODUCT_NAME = CocoaLumberjack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		CFDD130CD55EF35044663B5AAD0E7A87 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -4941,38 +5244,7 @@
 			};
 			name = Release;
 		};
-		D00672A0F7CB48126DC692F5DC6469CE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95C50C75C3596C666D08A393326C2181 /* SalesforceAnalytics.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SalesforceAnalytics/SalesforceAnalytics-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SalesforceAnalytics/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SalesforceAnalytics/SalesforceAnalytics.modulemap";
-				PRODUCT_NAME = SalesforceAnalytics;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E990B02C63DB3054F6CCE25CC11084B1 /* Release */ = {
+		DC3AFE3DA3836078B9EE1A22F05AA512 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 503273E1F99BA8432B7820FB9C02644B /* Pods-Siri.release.xcconfig */;
 			buildSettings = {
@@ -5006,70 +5278,9 @@
 			};
 			name = Release;
 		};
-		F3BF91DD66F658FE4A7330FD5B00F1D1 /* Release */ = {
+		FD824FAA750F47B03916F84F49D61EB2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15434F452EB9EC23AD8991A0F432E26C /* SmartStore.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SmartStore/SmartStore-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SmartStore/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SmartStore/SmartStore.modulemap";
-				PRODUCT_NAME = SmartStore;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F58E08FFBA4258DCB8D1B2091E6D3FE2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6ED2E03139289F6B27F1A4989F8A00C8 /* FMDB.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
-				PRODUCT_NAME = FMDB;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FF5CB4785637ACD2D154987581B9899F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 000703F696FE7E6D0C2FFCE83EDC8474 /* Pods-Siri.debug.xcconfig */;
+			baseConfigurationReference = 9E6FA925D5746CE636AE8EEA975417BD /* SalesforceSDKCore.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -5081,42 +5292,32 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Siri/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SalesforceSDKCore/SalesforceSDKCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SalesforceSDKCore/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Siri/Pods-Siri.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Siri;
+				MODULEMAP_FILE = "Target Support Files/SalesforceSDKCore/SalesforceSDKCore.modulemap";
+				PRODUCT_NAME = SalesforceSDKCore;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		27AF1AEB3BE6C2388E887F54D7C18A73 /* Build configuration list for PBXNativeTarget "Pods-Siri" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FF5CB4785637ACD2D154987581B9899F /* Debug */,
-				E990B02C63DB3054F6CCE25CC11084B1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		28422A1AB435F85FE664FA52FB8E0C51 /* Build configuration list for PBXNativeTarget "FMDB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F58E08FFBA4258DCB8D1B2091E6D3FE2 /* Debug */,
-				7DF8E7E70E596E93FEC52275D4648127 /* Release */,
+				499374279223E8671C0A79046401D2EB /* Debug */,
+				1706ABC91D9539B3C6D356353920C64D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5142,8 +5343,8 @@
 		6D5BEF908094F492D3530E5DA6AA4034 /* Build configuration list for PBXNativeTarget "SalesforceSDKCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				150405E0867CFE091C7818FC8031E7B0 /* Debug */,
-				4578C86D44F0B1CE6622D99AE4689B77 /* Release */,
+				61074D2673D1A148142CD26A493E5B0F /* Debug */,
+				FD824FAA750F47B03916F84F49D61EB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5151,8 +5352,8 @@
 		758C81C124BEE86C1CDF242B6805F017 /* Build configuration list for PBXNativeTarget "SQLCipher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30FD5EF0A5C0B35641CAC20B838D045E /* Debug */,
-				0125B86B8CCFBF300BB086C3F6D96D38 /* Release */,
+				97923369A011F5AEE959D4DCEEAD0655 /* Debug */,
+				7781B86DA87463A0535BF50E555F84E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5160,8 +5361,8 @@
 		784629A4509B5B30BC859E922C8D5234 /* Build configuration list for PBXNativeTarget "SmartStore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				527A91C4F2A0BFA102E1BB345E0C67BD /* Debug */,
-				F3BF91DD66F658FE4A7330FD5B00F1D1 /* Release */,
+				1FD6C86506C356816D9E188E0481933A /* Debug */,
+				AF4275141D40710977FF27FA65D77062 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5184,20 +5385,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF96EC3301DB9FD930E5F740C1C3643B /* Build configuration list for PBXNativeTarget "Pods-SiriUI" */ = {
+		BBC6BC271DC1EDA017E50B47EAE2C95E /* Build configuration list for PBXNativeTarget "SmartSync" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B9AC61764C9293CD1ACC698B32B66554 /* Debug */,
-				AFEAE1ECF1629481842A4C580F4F58D1 /* Release */,
+				2094D532111E69E591828CBA13025426 /* Debug */,
+				9472C43BF7712038AEDE8069FB9C5F9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBC6BC271DC1EDA017E50B47EAE2C95E /* Build configuration list for PBXNativeTarget "SmartSync" */ = {
+		D1F9BFF571EAFC09C520B3F588A8D92B /* Build configuration list for PBXNativeTarget "Pods-Siri" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80D4A65F6C44D8BC31B04116A98FCADD /* Debug */,
-				4106D94ED450CAAC340EEBDA4BE0C66A /* Release */,
+				C92555FDFAA171AE0979C28FC0C82811 /* Debug */,
+				DC3AFE3DA3836078B9EE1A22F05AA512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5205,8 +5406,8 @@
 		D5B6D5A601701FB211DE1B97A7F7A291 /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				611BC6B19D47BEA09D22C3037D6AAEC4 /* Debug */,
-				03B999634FD5CB7F136B10211146DE6F /* Release */,
+				CDE63E41832196A489670094AEDC7B5B /* Debug */,
+				7506105C702FF90B3099C48EA5B8FD45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5214,8 +5415,17 @@
 		E6285931474A144D8B0BD3C49DB1A55A /* Build configuration list for PBXNativeTarget "SalesforceAnalytics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F853B0D58C8EF0D1C7D113F1441BA36 /* Debug */,
-				D00672A0F7CB48126DC692F5DC6469CE /* Release */,
+				5C98865957E42A822F1F5AE294930E51 /* Debug */,
+				89E4FC5A7F1A720B0A74840DC292BDA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8FA2894FB4E3D872B17B23D649FB08B /* Build configuration list for PBXNativeTarget "Pods-SiriUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED19BF7834FE73115BF1D0E3DDFCC7A /* Debug */,
+				98F3E2636F84A39D39191052165A6414 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

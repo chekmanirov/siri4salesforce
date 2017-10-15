@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A3CFDC6BB10B01D736951A3BE9C2B12C"
+               BlueprintIdentifier = "2F22E50097581DB83C6D6A819FDD5CC9"
                BuildableName = "Pods_SiriUI.framework"
                BlueprintName = "Pods-SiriUI"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A3CFDC6BB10B01D736951A3BE9C2B12C"
+            BlueprintIdentifier = "2F22E50097581DB83C6D6A819FDD5CC9"
             BuildableName = "Pods_SiriUI.framework"
             BlueprintName = "Pods-SiriUI"
             ReferencedContainer = "container:Pods.xcodeproj">

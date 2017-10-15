@@ -40,6 +40,11 @@ class AppDelegate : UIResponder, UIApplicationDelegate
     init()
     {
         super.init()
+        
+        
+        SFSDKDatasharingHelper.sharedInstance().appGroupName = "group.com.kevinme.Salesforce"
+        SFSDKDatasharingHelper.sharedInstance().appGroupEnabled = true;
+        
         SalesforceSDKManager.shared().connectedAppId = RemoteAccessConsumerKey
         SalesforceSDKManager.shared().connectedAppCallbackUri = OAuthRedirectURI
         SalesforceSDKManager.shared().authScopes = ["web", "api"];
@@ -55,6 +60,11 @@ class AppDelegate : UIResponder, UIApplicationDelegate
         
         SalesforceSDKManager.shared().postLaunchAction = {
             [unowned self] (launchActionList: SFSDKLaunchAction) in
+            
+            let defaults = UserDefaults(suiteName: "group.com.kevinme.Salesforce")
+            defaults?.set(true, forKey: "userIsLoggedIn")
+            defaults?.synchronize()
+            
             let launchActionString = SalesforceSDKManager.launchActionsStringRepresentation(launchActionList)
             SFSDKLogger.sharedDefaultInstance().log(type(of:self), level:.info, message:"Post-launch: launch actions taken: \(launchActionString)");
             self.setupRootViewController();

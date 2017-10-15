@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		130C46AD1F932F9300EDCC2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6C4791B754AF1002F9F90 /* AppDelegate.swift */; };
+		130C46AE1F932F9700EDCC2B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6C49C1B755242002F9F90 /* RootViewController.swift */; };
+		130C46AF1F932F9B00EDCC2B /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6C49D1B755242002F9F90 /* InitialViewController.swift */; };
+		130C46B01F932FC400EDCC2B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F393A281C3C8BCD00B3EA13 /* main.swift */; };
 		1378F4961F8C33E50038EB1C /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1378F4951F8C33E50038EB1C /* IntentHandler.swift */; };
 		1378F49E1F8C33E50038EB1C /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1378F49D1F8C33E50038EB1C /* IntentsUI.framework */; };
 		1378F4A11F8C33E50038EB1C /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1378F4A01F8C33E50038EB1C /* IntentViewController.swift */; };
@@ -15,10 +19,6 @@
 		1378F4AB1F8C33E50038EB1C /* Siri.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1378F4931F8C33E50038EB1C /* Siri.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1DF2EF3AB62372D5BCD127FC /* Pods_Siri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97A8080BAE84ED330D451547 /* Pods_Siri.framework */; };
 		26B374DB980250E966A7D17A /* Pods_SiriUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E95384218B5FA8B821B42A7 /* Pods_SiriUI.framework */; };
-		4F393A291C3C8BCD00B3EA13 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F393A281C3C8BCD00B3EA13 /* main.swift */; };
-		4FD6C47A1B754AF1002F9F90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6C4791B754AF1002F9F90 /* AppDelegate.swift */; };
-		4FD6C49F1B755242002F9F90 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6C49C1B755242002F9F90 /* RootViewController.swift */; };
-		4FD6C4A01B755242002F9F90 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6C49D1B755242002F9F90 /* InitialViewController.swift */; };
 		78A235BD93AB7D080D67CD51 /* Pods_Salesforce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A29C75280BDF73123F14B4 /* Pods_Salesforce.framework */; };
 		CEA8CA041F071B2300448B51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA8CA031F071B2300448B51 /* Images.xcassets */; };
 /* End PBXBuildFile section */
@@ -58,6 +58,7 @@
 /* Begin PBXFileReference section */
 		045D1C5BC2F1EADFDFB3671E /* Pods-Salesforce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salesforce.release.xcconfig"; path = "Pods/Target Support Files/Pods-Salesforce/Pods-Salesforce.release.xcconfig"; sourceTree = "<group>"; };
 		0E95384218B5FA8B821B42A7 /* Pods_SiriUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiriUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		130C46B21F9330D000EDCC2B /* Siri.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Siri.entitlements; sourceTree = "<group>"; };
 		1378F4931F8C33E50038EB1C /* Siri.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Siri.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1378F4951F8C33E50038EB1C /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
 		1378F4971F8C33E50038EB1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,6 +67,7 @@
 		1378F4A01F8C33E50038EB1C /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
 		1378F4A31F8C33E50038EB1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		1378F4A51F8C33E50038EB1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13AC6D801F93442D00C67C01 /* SiriUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SiriUI.entitlements; sourceTree = "<group>"; };
 		143763F9AE9EAB9AA80A0FDB /* Pods-SiriUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiriUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-SiriUI/Pods-SiriUI.release.xcconfig"; sourceTree = "<group>"; };
 		2AF100354EBFF653B2B3E601 /* Pods-Siri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Siri.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Siri/Pods-Siri.debug.xcconfig"; sourceTree = "<group>"; };
 		4F393A281C3C8BCD00B3EA13 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		1378F4941F8C33E50038EB1C /* Siri */ = {
 			isa = PBXGroup;
 			children = (
+				130C46B21F9330D000EDCC2B /* Siri.entitlements */,
 				1378F4951F8C33E50038EB1C /* IntentHandler.swift */,
 				1378F4971F8C33E50038EB1C /* Info.plist */,
 			);
@@ -125,6 +128,7 @@
 		1378F49F1F8C33E50038EB1C /* SiriUI */ = {
 			isa = PBXGroup;
 			children = (
+				13AC6D801F93442D00C67C01 /* SiriUI.entitlements */,
 				1378F4A01F8C33E50038EB1C /* IntentViewController.swift */,
 				1378F4A21F8C33E50038EB1C /* MainInterface.storyboard */,
 				1378F4A51F8C33E50038EB1C /* Info.plist */,
@@ -158,6 +162,11 @@
 			isa = PBXGroup;
 			children = (
 				4FF12F8A1DCA91F5004D9EF9 /* Salesforce.entitlements */,
+				4FD6C49D1B755242002F9F90 /* InitialViewController.swift */,
+				4FD6C49C1B755242002F9F90 /* RootViewController.swift */,
+				4FD6C4791B754AF1002F9F90 /* AppDelegate.swift */,
+				4FD6C49A1B755242002F9F90 /* Bridging-Header.h */,
+				4F393A281C3C8BCD00B3EA13 /* main.swift */,
 				4FD6C4A11B755265002F9F90 /* Classes */,
 				4FD6C4771B754AF1002F9F90 /* Supporting Files */,
 			);
@@ -176,11 +185,6 @@
 		4FD6C4A11B755265002F9F90 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4FD6C49A1B755242002F9F90 /* Bridging-Header.h */,
-				4FD6C49C1B755242002F9F90 /* RootViewController.swift */,
-				4FD6C49D1B755242002F9F90 /* InitialViewController.swift */,
-				4FD6C4791B754AF1002F9F90 /* AppDelegate.swift */,
-				4F393A281C3C8BCD00B3EA13 /* main.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -287,17 +291,33 @@
 						CreatedOnToolsVersion = 9.0;
 						DevelopmentTeam = C8MU88638A;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					1378F49B1F8C33E50038EB1C = {
 						CreatedOnToolsVersion = 9.0;
 						DevelopmentTeam = C8MU88638A;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					4FD6C4731B754AF1002F9F90 = {
 						CreatedOnToolsVersion = 6.4;
 						DevelopmentTeam = C8MU88638A;
 						LastSwiftMigration = 0900;
 						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
 							com.apple.Keychain = {
 								enabled = 1;
 							};
@@ -509,10 +529,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FD6C47A1B754AF1002F9F90 /* AppDelegate.swift in Sources */,
-				4FD6C49F1B755242002F9F90 /* RootViewController.swift in Sources */,
-				4F393A291C3C8BCD00B3EA13 /* main.swift in Sources */,
-				4FD6C4A01B755242002F9F90 /* InitialViewController.swift in Sources */,
+				130C46AF1F932F9B00EDCC2B /* InitialViewController.swift in Sources */,
+				130C46AE1F932F9700EDCC2B /* RootViewController.swift in Sources */,
+				130C46B01F932FC400EDCC2B /* main.swift in Sources */,
+				130C46AD1F932F9300EDCC2B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +578,7 @@
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = SiriUI/SiriUI.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -590,6 +611,7 @@
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = SiriUI/SiriUI.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C8MU88638A;
@@ -620,6 +642,7 @@
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = Siri/Siri.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -652,6 +675,7 @@
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = Siri/Siri.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C8MU88638A;
@@ -706,7 +730,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -747,7 +771,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
